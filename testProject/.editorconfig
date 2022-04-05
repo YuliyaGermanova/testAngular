@@ -2,10 +2,17 @@
 root = true
 
 [*]
-charset = utf-8
+############################### 
+# Core EditorConfig Options   # 
+############################### 
+root = true 
+# All files 
 indent_style = space
+# Code files 
+[*.{ts,scss,html,cs,csx,vb,vbx}]
 indent_size = 2
 insert_final_newline = true
+charset = utf-8
 trim_trailing_whitespace = true
 
 [*.ts]
